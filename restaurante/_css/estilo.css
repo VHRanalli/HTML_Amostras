@@ -1,0 +1,247 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+	background-image: url("../_imagens/restaurante1.jpg");
+	background-size: 100%;
+	background-position: 0px -300px; 
+	height: 300px;
+}
+
+header nav{
+	background-color: rgba(0,0,0,.8);
+	padding: 10px 0px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+}
+
+header nav li{
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+header nav li a{
+	color: rgb(255,255,255);
+	text-decoration: none;
+	font-family: 'Abril Fatface', cursive;
+}
+
+header nav li a:hover{
+	color: rgba(255,255,255,.8);
+}
+
+header h1{
+	text-align: center;
+	color: rgba(255,255,255,0.8);
+	font-family: 'Give You Glory', cursive;
+	font-size: 30pt;
+	padding-top: 150px;
+	text-shadow:  5px 5px 10px #dddddd;
+}
+
+main{
+	
+}
+
+.conteudo{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 50px 0px;
+	display: table;
+	background-color: white;
+
+}
+
+.col2{
+	width: 48%;
+	background-color: white;
+	-webkit-box-shadow: 3px 3px 10px #dddddd;
+	        box-shadow: 3px 3px 10px #dddddd;
+	float: left;
+	margin: 1%;
+}
+
+.img{
+	width: 100%;
+	height: auto;
+	opacity: .5;
+	-webkit-transition: .5s all ease;
+	-o-transition: .5s all ease;
+	transition: .5s all ease;
+}
+
+.img:hover{
+	opacity: 1;
+	-webkit-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	        transform: scale(1.1);
+}
+
+h3{
+	font-family: 'Indie Flower';
+	font-size: 20pt;
+	padding-left: 5%;
+	padding-bottom: 5%;
+}
+
+.texto1{
+	font-family: 'Baloo Chettan', cursive;
+	font-size: 10pt;
+	line-height: 25px;
+	padding: 1%;
+
+}
+
+.col2 a{
+	font-family: 'Bigelow Rules', cursive;
+	font-size: 15pt;
+	text-decoration: none;
+	text-align: right;
+	width: 60%;
+	padding: 5%;
+
+}
+
+
+footer{
+	padding: 80px 0px;
+	background-color: darkred;
+	color: white;
+	display: inline-block;
+	width: 100%;
+	clear: both;
+
+}
+
+footer #endereco{
+	float: left;
+	line-height: 30px;
+	width: 20%;
+	margin-left: 500px;
+
+}
+
+footer #redes{
+	float: right;
+	width: 10%;
+	margin-right: 500px;
+
+}
+
+footer #redes ul{
+	list-style: none;
+
+
+}
+
+footer a{
+	text-decoration: none;
+	color: white;
+	
+
+}
+
+/*css do cardapio*/
+
+.esquerda{
+	width: 49%;
+	float: left;
+}
+
+/*css do vinho*/
+
+.col3{
+	width: 30%;
+	background-color: white;
+	-webkit-box-shadow: 3px 3px 10px #dddddd;
+	        box-shadow: 3px 3px 10px #dddddd;
+	float: left;
+	margin: 1%;
+}
+
+.col2 a{
+	font-family: 'Bigelow Rules', cursive;
+	font-size: 15pt;
+	text-decoration: none;
+	text-align: right;
+	width: 60%;
+	padding: 5%;
+
+}
+
+.esquerda2{
+	width: 49%;
+	float: left;
+}
+
+/* css Reservas */
+
+form{
+	margin: 0.3% auto;/*Margem do formulario*/
+	padding: 4%;/*Margem interna da caixa*/
+	width: 75%; /*largura do formulario*/
+	background-color: rgba(50,50,50,.9);
+	box-shadow: 5px 5px 10px black;
+
+}
+
+label{
+	display: block;/*essa formatção deixa as caixas de texto que estao dentro desta tag em Bloco, ele dispoem as coisas em blocos*/
+	font-family: 'Kaushan Script', cursive;
+	font-weight: 800;
+	color: #ffffffff;
+	margin-top: 2%;
+
+}
+
+/*input{
+	padding: 1.3%;
+	border: 0px;
+	width: 90%;
+}*/
+
+input[type=text], input[type=email], select, textarea{
+	outline: none;
+	border-radius: 10px;
+	border: 0px;
+	padding: 1.3%;
+	border: 0px;
+	width: 90%;
+	margin-bottom: 0.3%;
+}
+
+textarea{
+	height: 100px;
+}
+
+input[type=date]{
+	width: 50%;
+}
+
+select{
+	width: 20%;
+}
+
+input[type=submit]{
+	display: block;
+	font-family: arial;
+	font-weight: 400;
+	font-size: 10pt;
+	padding: 2%;
+	width: 93%;
+	border: 0px;
+	outline: none;
+	cursor: pointer;
+}
+
+input[type=submit]:hover{
+	background-color: black;
+	color: white;
+}
+
